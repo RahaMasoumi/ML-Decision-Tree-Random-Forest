@@ -1,11 +1,10 @@
 # ML-Decision-Tree-Random-Forest
-
-For this project we have used the public data avaible on [LendingClub.com](www.lendingclub.com). 
+This is the forth exercise that I have done during the course for "Data Science and Machine Learning Bootcamp" in Udemy.
+For this exercise I have used the public data ("Lending Club"), avaible on [LendingClub.com](www.lendingclub.com). 
 Lending Club connects people who need money (borrowers) with people who have money (investors).
 
-We will use lending data from 2007-2010 and be trying to classify and predict whether or not the borrower paid back their loan in full. You can download the data from [here](https://www.lendingclub.com/info/download-data.action) or just use the csv already provided. It's recommended you use the csv provided as it has been cleaned of NA values.
-
-Here are what the columns represent:
+The data is from 2007-2010. We will try to classify and predict whether or not the borrower paid back their loan in full. You can download the data from [LendingClub.com](www.lendingclub.com). But I have used the csv file provided by Udemy without NA values.
+Below I am explaining 
 * credit.policy: 1 if the customer meets the credit underwriting criteria of LendingClub.com, and 0 otherwise.
 * purpose: The purpose of the loan (takes values "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business", and "all_other").
 * int.rate: The interest rate of the loan, as a proportion (a rate of 11% would be stored as 0.11). Borrowers judged by LendingClub.com to be more risky are assigned higher interest rates.
